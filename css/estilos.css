@@ -1,0 +1,60 @@
+@font-face {
+	font-family: 'cybrpnuk2';
+	src: url('../fonts/cybrpnuk2.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+}
+
+body {
+	background-color: black;
+	min-width: 200px;
+}
+
+.titulo {
+	text-align: center;
+	font-family: cybrpnuk2, Verdana, Georgia, Times, "Times New Roman", serif;
+	font-size: 10.0vw;
+	color: white;
+}
+
+.caja-player {
+	text-align: center;
+	/*position: relative;*/
+}
+
+.player {
+	margin: 0 auto;
+	text-align: center;
+	width: 60%;
+	max-width: 75px;
+	height: 45px;
+	font-size: 25px;
+	background-color: white;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding-top: 15px;
+}
+
+
+.player .pause {
+	font-size: 20px;
+}
+
+.caja-parrilla {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.parrillavegana {
+    font-family: cybrpnuk2, Verdana, Georgia, Times, "Times New Roman", serif;
+    /*font-size: 15px;*/
+	font-size: 3.5vw;
+    color: white;
+	text-align: center;
+}
+
+.current {
+    font-size: 2.5vw;
+}
+
